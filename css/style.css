@@ -1,3 +1,92 @@
-body {
-    color: red;
+/* common style for all element */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* Google Fonts Inter */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* Google Fonts Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+
+/*************************
+start style for influencer-gear main section 
+**************************************/
+.influencer-main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.influencer-title {
+    text-align: center;
+    padding: 15px 0 30px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+
+.influencer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    background-color: rgb(221, 218, 218);
+    border-radius: 10px;
+}
+
+.collection-item {
+    /* width: 366px; */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px gray;
+
+}
+
+.collection-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.collection-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 5px;
+    color: #18191F;
+}
+
+.collection-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 36px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.collection-info span {
+    font-size: 14px;
+    color: orange;
+}
+
+.collection-info .rating-point {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6366;
+    margin-left: 5px;
+}
+
+.collection-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #787885;
 }
