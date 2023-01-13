@@ -112,6 +112,7 @@ start style for influencer-gear main section
     font-size: 16px;
     line-height: 24px;
     color: rgba(224, 44, 109, 0.87);
+    cursor: pointer;
 
 }
 
@@ -121,8 +122,90 @@ start style for influencer-gear main section
 
 .collection-see-more:hover .fa-arrow-right {
     background-color: #5E6366;
+
 }
 
 /*************************
 end style for influencer-gear main section 
+**************************************/
+
+
+/*************************
+start style for influencer-gear featured section
+**************************************/
+.influencer-featured {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color: rgb(221, 218, 218);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px; */
+
+}
+
+.featured-img {
+    width: 52%;
+}
+
+.featured-img img {
+    width: 90%;
+    border-radius: 10px;
+    transition: width 5s ease 2s, height 5s linear, transform 1s;
+}
+
+.featured-img img:hover {
+    transform: rotate(180deg);
+}
+
+.featured-info {}
+
+.featured-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    /* text-align: right; */
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 20px;
+}
+
+.featured-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    font-style: normal;
+}
+
+.featured-info .featured-join {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 2px 3px gray;
+
+
+}
+
+.featured-info .featured-join:hover {
+    background-color: lightskyblue;
+    color: #5E6366;
+    cursor: pointer;
+}
+
+/*************************
+end style for influencer-gear featured section
 **************************************/
