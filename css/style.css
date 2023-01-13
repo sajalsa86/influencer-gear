@@ -143,6 +143,7 @@ start style for influencer-gear featured section
     justify-content: space-between;
     padding-top: 15px;
     background-color: rgb(221, 218, 218);
+    padding-bottom: 70px;
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 80px; */
@@ -182,6 +183,7 @@ start style for influencer-gear featured section
     line-height: 28px;
     color: #6C6C6C;
     font-style: normal;
+    text-align: left;
 }
 
 .featured-info .featured-join {
@@ -209,3 +211,48 @@ start style for influencer-gear featured section
 /*************************
 end style for influencer-gear featured section
 **************************************/
+/*************************
+start style for influencer-gear footer section
+**************************************/
+.influencer-footer {
+    background-color: black;
+    padding-top: 50px;
+    width: 85%;
+    /* height: 150px; */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.influencer-footer h2,
+h3,
+h4,
+p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.influencer-footer h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.influencer-footer h3,
+h4 {
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.influencer-footer .btn {
+    margin: 30px 12px 30px 0;
+    font-size: 1.2em;
+}
+
+.influencer-footer .btn:hover {
+    color: lightblue;
+    color: blue;
+}
