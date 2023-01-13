@@ -30,10 +30,14 @@ start style for influencer-gear main section
 }
 
 .influencer-container {
+    background-color: rgb(221, 218, 218);
+}
+
+
+.influencer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    background-color: rgb(221, 218, 218);
     border-radius: 10px;
 }
 
@@ -44,11 +48,20 @@ start style for influencer-gear main section
     background-color: aliceblue;
     box-shadow: 2px 2px 2px gray;
 
+
 }
 
 .collection-img img {
     width: 100%;
     border-radius: 10px;
+    transform: scale(1);
+    animation: collection-img-move 3s infinite;
+}
+
+@keyframes collection-img-move {
+    50% {
+        transform: scale(0.90);
+    }
 }
 
 .collection-info h2 {
@@ -90,3 +103,26 @@ start style for influencer-gear main section
     line-height: 20px;
     color: #787885;
 }
+
+.collection-see-more {
+    margin-top: 30px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+
+}
+
+.collection-see-more .fa-arrow-right {
+    margin-left: 5px;
+}
+
+.collection-see-more:hover .fa-arrow-right {
+    background-color: #5E6366;
+}
+
+/*************************
+end style for influencer-gear main section 
+**************************************/
